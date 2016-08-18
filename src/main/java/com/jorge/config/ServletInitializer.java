@@ -12,7 +12,7 @@ public class ServletInitializer extends AbstractAnnotationConfigDispatcherServle
 	@Override
 	protected Class<?>[] getServletConfigClasses() { //This declares the Spring configuration classes.
 													 //Here, we declare the AppConfig and DatabaseConfig classes that were previously defined.
-		return new Class<?>[] { AppConfig.class};
+		return new Class<?>[] { AppConfig.class };
 	}
 
 	@Override
