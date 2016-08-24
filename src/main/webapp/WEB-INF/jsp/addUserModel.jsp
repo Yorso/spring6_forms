@@ -22,7 +22,7 @@
 		</h3>
 		
 		<form:form method="POST" modelAttribute="defaultUser" action="addUserModel">
-			<!-- path="firstName" and path="age" match with attributes in moel (User.java and @ModelAttribute("defaultUser") in UserController.java) -->
+			<!-- path="firstName" and path="age" match with attributes in model (User.java and @ModelAttribute("defaultUser") in UserController.java) -->
 			<form:input path="firstName" />
 			<form:input path="age" />
 			<input type="submit" value="Submit" />
